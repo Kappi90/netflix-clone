@@ -35,7 +35,7 @@ class MovieGallery extends Component {
         <h4 className='text-white ml-4'>{this.props.title} Saga</h4>
         <Container className='d-flex px-0 py-4 mr-0 ml-4'>
           {this.state.movies.map((posters) => (
-            <div key={posters.imdbID} className='col mb-2 px-1'>
+            <div key={posters.imdbID} className='col mb-2 px-1 divImg'>
               <img
                 className='imgMovie'
                 style={{ width: "200px", height: "300px" }}

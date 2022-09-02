@@ -19,7 +19,10 @@ footer{
 p > a{
   color: #838383;
 }
-.imgMovie:hover{
+.divImg{
+  z-index: 0;
+}
+.divImg:hover{
   transform: scale(1.2);
   z-index: 2;
 }
