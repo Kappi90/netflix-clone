@@ -11,7 +11,7 @@ const MyFooter = () => {
       <div className='row text-center mt-5'>
         <div className='col-6 offset-3'>
           <div className='row'>
-            <div className='col col-12 text-left mb-2'>
+            <div className='col col-12 text-center mb-3'>
               <FontAwesomeIcon
                 className='icons'
                 icon={faFacebook}
