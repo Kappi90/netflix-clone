@@ -24,9 +24,8 @@ const MyNav = () => {
           <Nav className='mr-auto'>
             <Link
               className={
-                location.pathname === "/"
-                  ? "nav-link active text-white"
-                  : "nav-link text-white"
+                "nav-link text-white" +
+                (location.pathname === "/" ? "active" : "")
               }
               to='/'
             >
@@ -34,9 +33,8 @@ const MyNav = () => {
             </Link>
             <Link
               className={
-                location.pathname === "/tv-shows"
-                  ? "nav-link active text-white"
-                  : "nav-link text-white"
+                "nav-link text-white" +
+                (location.pathname === "/tv-shows" ? "active" : "")
               }
               to='/tv-shows'
             >
